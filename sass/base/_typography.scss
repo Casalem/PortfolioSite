@@ -1,6 +1,9 @@
-$header-font-family: 'Raleway', sans-serif;
+$main-font: 'Raleway', sans-serif;
+$secondary-font: Arial, sans-serif;
+
+$header-font-family: $main-font;
 $h1-font-size: 90px;
 $h2-font-size: 38px;
 
-$caption-font-family: 'Raleway', sans-serif;
+$caption-font-family: $main-font;
 $caption-font-weight: 100;

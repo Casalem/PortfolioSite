@@ -1,13 +1,15 @@
 @import 'base/colors';
 @import 'base/typography';
 
+@import 'components/navbar';
+
 body, html {
 	height: 100%;
 }
 
 body {
-	padding: 0;
 	margin: 0;
+	padding: 0;
 
 	// //The following lines of code are for removing the scrollbar from view
 	//I would like to get this to work in the future. Current problem (10/12/19)
@@ -24,6 +26,7 @@ body {
 }
 
 #banner {
+	margin-top: 51px; //size of navbar
 	height: 100%;
 	background-image: url(../img/IslandSunset.svg);
 	background-repeat: no-repeat;
@@ -35,7 +38,7 @@ body {
 	h1 {
 		position: absolute;
 		right: 20px;
-		top: 100px;
+		top: 151px;
 		margin: 0;
 		font-family: $header-font-family;
 		font-size: $h1-font-size;
@@ -46,7 +49,7 @@ body {
 
 	h2 {
 		position: absolute;
-		bottom: 10px;
+		bottom: -41px;
 		margin: 0;
 		width: 100%;
 		font-family: $header-font-family;
