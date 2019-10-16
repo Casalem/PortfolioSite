@@ -1,3 +1,6 @@
+@import 'base/colors';
+@import 'base/typography';
+
 body, html {
 	height: 100%;
 }
@@ -27,15 +30,15 @@ body {
 	background-size: cover;
 	background-position: bottom center;
 
-	color: white;
+	color: $secondary;
 
 	h1 {
 		position: absolute;
 		right: 20px;
 		top: 100px;
 		margin: 0;
-		font-family: 'Raleway', sans-serif;
-		font-size: 90px;
+		font-family: $header-font-family;
+		font-size: $h1-font-size;
 		font-weight: 700;
 		text-align: right;
 		max-width: 800px;
@@ -46,8 +49,8 @@ body {
 		bottom: 10px;
 		margin: 0;
 		width: 100%;
-		font-family: 'Raleway', sans-serif;
-		font-size: 38px;
+		font-family: $header-font-family;
+		font-size: $h2-font-size;
 		font-weight: 100;
 		text-align: center;
 	}
