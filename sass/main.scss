@@ -58,3 +58,20 @@ body {
 		text-align: center;
 	}
 }
+
+/* construction.html */
+#content {
+	text-align: right;
+	font-family: $main-font;
+	color: $primary-darker;
+	margin-top: 101px;
+
+	h1 {
+		font-size: $h1-font-size;
+	}
+
+	h2 {
+		font-size: $h2-font-size;
+	}
+}
+
