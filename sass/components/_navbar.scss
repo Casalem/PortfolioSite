@@ -14,15 +14,38 @@
 	ul {
 		list-style-type: none;
 		float: right;
-		margin: 25px 15px;
+		margin: 20px 15px;
 
 		li {
 			display: inline-block;
-			margin-right: 15px;
+			margin-right: 20px;
 		}
 
 		li:last-of-type {
-			margin-right: 0;
+			margin-right: 25px;
+		}
+	}
+
+	a {
+		display: inline-block;
+		width: 30px;
+		height: 30px;
+		background-image: url(../img/SocialMediaSpritesheet.svg);
+		background-size: 30px 120px;
+		background-repeat: no-repeat;
+		vertical-align: middle;
+
+		&.instagram {
+			background-position: 0 0;
+		}
+		&.artstation {
+			background-position: 0 -30px;
+		}
+		&.github {
+			background-position: 0 -60px;
+		}
+		&.email {
+			background-position: 0 -90px;
 		}
 	}
 }
