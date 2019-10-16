@@ -32,6 +32,8 @@
   display: inline-block;
   width: 30px;
   height: 30px;
+  background-image: url(../img/SocialMediaSpritesheet.png);
+  /* For older browsers */
   background-image: url(../img/SocialMediaSpritesheet.svg);
   background-size: 30px 120px;
   background-repeat: no-repeat;
